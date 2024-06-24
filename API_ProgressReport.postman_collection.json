@@ -1,0 +1,251 @@
+{
+    "info": {
+        "_postman_id": "c4616dc0-f3d0-40f4-a462-7cf983494f00",
+        "name": "API_ProgressReport",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "_exporter_id": "35399730"
+    },
+    "item": [
+        {
+            "name": "Clientes",
+            "item": [
+                {
+                    "name": "Get All Clientes",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "http://127.0.0.1:3000/api/v1/clientes/",
+                            "protocol": "http",
+                            "host": ["127", "0", "0", "1"],
+                            "port": "3000",
+                            "path": ["api", "v1", "clientes", ""]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Get Cliente By ID",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "http://127.0.0.1:3000/api/v1/clientes/66788bed696d7042731025f6",
+                            "protocol": "http",
+                            "host": ["127", "0", "0", "1"],
+                            "port": "3000",
+                            "path": ["api", "v1", "clientes", "66788bed696d7042731025f6"]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Get Cliente By Name",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "http://127.0.0.1:3000/api/v1/clientes/nome/carlos-eduardo-silva",
+                            "protocol": "http",
+                            "host": ["127", "0", "0", "1"],
+                            "port": "3000",
+                            "path": ["api", "v1", "clientes", "nome", "carlos-eduardo-silva"]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Create Cliente",
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\r\n    \"nome\": \"Clove da Silva\",\r\n    \"sexo\": \"feminino\",\r\n    \"dataDeNascimento\": \"2000-04-21\",\r\n    \"idade\": 18,\r\n    \"cidade\": \"sdjskahdjksahdo\"\r\n}",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        },
+                        "url": {
+                            "raw": "http://127.0.0.1:3000/api/v1/clientes/",
+                            "protocol": "http",
+                            "host": ["127", "0", "0", "1"],
+                            "port": "3000",
+                            "path": ["api", "v1", "clientes", ""]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Update Cliente",
+                    "request": {
+                        "method": "PATCH",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\r\n    \"nome\": \"Carlos Eduardo\",\r\n    \"idade\": 32\r\n}",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        },
+                        "url": {
+                            "raw": "http://127.0.0.1:3000/api/v1/clientes/6679c653816f6e25ae64edb6",
+                            "protocol": "http",
+                            "host": ["127", "0", "0", "1"],
+                            "port": "3000",
+                            "path": ["api", "v1", "clientes", "6679c653816f6e25ae64edb6"]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Delete Cliente",
+                    "request": {
+                        "method": "DELETE",
+                        "header": [],
+                        "url": {
+                            "raw": "http://127.0.0.1:3000/api/v1/clientes/667896c0894a93d4003479d2",
+                            "protocol": "http",
+                            "host": ["127", "0", "0", "1"],
+                            "port": "3000",
+                            "path": ["api", "v1", "clientes", "667896c0894a93d4003479d2"]
+                        }
+                    },
+                    "response": []
+                }
+            ]
+        },
+        {
+            "name": "Cidades",
+            "item": [
+                {
+                    "name": "Get All Cidades",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "http://127.0.0.1:3000/api/v1/cidades/",
+                            "protocol": "http",
+                            "host": ["127", "0", "0", "1"],
+                            "port": "3000",
+                            "path": ["api", "v1", "cidades", ""]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Get Cidade By ID",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "http://127.0.0.1:3000/api/v1/cidades/66789babc445ac72a756a472",
+                            "protocol": "http",
+                            "host": ["127", "0", "0", "1"],
+                            "port": "3000",
+                            "path": ["api", "v1", "cidades", "66789babc445ac72a756a472"]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Get Cidade By Name",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "http://127.0.0.1:3000/api/v1/cidades/nome/sao-pauloa",
+                            "protocol": "http",
+                            "host": ["127", "0", "0", "1"],
+                            "port": "3000",
+                            "path": ["api", "v1", "cidades", "nome", "sao-pauloa"]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Get Cidade By Estado",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "http://127.0.0.1:3000/api/v1/cidades/estado/MG",
+                            "protocol": "http",
+                            "host": ["127", "0", "0", "1"],
+                            "port": "3000",
+                            "path": ["api", "v1", "cidades", "estado", "MG"]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Create Cidade",
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\r\n    \"nome\": \"Patos de Minas\",\r\n    \"estado\": \"MG\"\r\n}",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        },
+                        "url": {
+                            "raw": "http://127.0.0.1:3000/api/v1/cidades/",
+                            "protocol": "http",
+                            "host": ["127", "0", "0", "1"],
+                            "port": "3000",
+                            "path": ["api", "v1", "cidades", ""]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Update Cidade",
+                    "request": {
+                        "method": "PATCH",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\r\n    \"nome\": \"Belo Horizonte\",\r\n    \"estado\": \"MG\"\r\n}",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        },
+                        "url": {
+                            "raw": "http://127.0.0.1:3000/api/v1/cidades/66789babc445ac72a756a471",
+                            "protocol": "http",
+                            "host": ["127", "0", "0", "1"],
+                            "port": "3000",
+                            "path": ["api", "v1", "cidades", "66789babc445ac72a756a471"]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Delete Cidade",
+                    "request": {
+                        "method": "DELETE",
+                        "header": [],
+                        "url": {
+                            "raw": "http://127.0.0.1:3000/api/v1/cidades/66789babc445ac72a756a472",
+                            "protocol": "http",
+                            "host": ["127", "0", "0", "1"],
+                            "port": "3000",
+                            "path": ["api", "v1", "cidades", "66789babc445ac72a756a472"]
+                        }
+                    },
+                    "response": []
+                }
+            ]
+        }
+    ]
+}
