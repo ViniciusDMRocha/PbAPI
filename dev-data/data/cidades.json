@@ -1,0 +1,102 @@
+[
+    {
+        "nome": "São Paulo",
+        "estado": "SP"
+    },
+    {
+        "nome": "Rio de Janeiro",
+        "estado": "RJ"
+    },
+    {
+        "nome": "Belo Horizonte",
+        "estado": "MG"
+    },
+    {
+        "nome": "Curitiba",
+        "estado": "PR"
+    },
+    {
+        "nome": "Porto Alegre",
+        "estado": "RS"
+    },
+    {
+        "nome": "Florianópolis",
+        "estado": "SC"
+    },
+    {
+        "nome": "Brasília",
+        "estado": "DF"
+    },
+    {
+        "nome": "Salvador",
+        "estado": "BA"
+    },
+    {
+        "nome": "Recife",
+        "estado": "PE"
+    },
+    {
+        "nome": "Fortaleza",
+        "estado": "CE"
+    },
+    {
+        "nome": "Manaus",
+        "estado": "AM"
+    },
+    {
+        "nome": "Belém",
+        "estado": "PA"
+    },
+    {
+        "nome": "Goiânia",
+        "estado": "GO"
+    },
+    {
+        "nome": "Vitória",
+        "estado": "ES"
+    },
+    {
+        "nome": "São Luís",
+        "estado": "MA"
+    },
+    {
+        "nome": "Natal",
+        "estado": "RN"
+    },
+    {
+        "nome": "Maceió",
+        "estado": "AL"
+    },
+    {
+        "nome": "Campo Grande",
+        "estado": "MS"
+    },
+    {
+        "nome": "João Pessoa",
+        "estado": "PB"
+    },
+    {
+        "nome": "Aracaju",
+        "estado": "SE"
+    },
+    {
+        "nome": "Palmas",
+        "estado": "TO"
+    },
+    {
+        "nome": "Teresina",
+        "estado": "PI"
+    },
+    {
+        "nome": "Macapá",
+        "estado": "AP"
+    },
+    {
+        "nome": "Boa Vista",
+        "estado": "RR"
+    },
+    {
+        "nome": "Porto Velho",
+        "estado": "RO"
+    }
+]

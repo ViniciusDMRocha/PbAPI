@@ -1,0 +1,177 @@
+[
+    {
+        "nome": "Carlos Eduardo Silva",
+        "sexo": "masculino",
+        "dataDeNascimento": "1985-01-15",
+        "idade": 39,
+        "cidade": "São Paulo"
+    },
+    {
+        "nome": "Maria Clara Oliveira",
+        "sexo": "feminino",
+        "dataDeNascimento": "1990-03-22",
+        "idade": 34,
+        "cidade": "Rio de Janeiro"
+    },
+    {
+        "nome": "João Pedro Santos",
+        "sexo": "masculino",
+        "dataDeNascimento": "1982-07-11",
+        "idade": 41,
+        "cidade": "Belo Horizonte"
+    },
+    {
+        "nome": "Ana Paula Lima",
+        "sexo": "feminino",
+        "dataDeNascimento": "1995-12-02",
+        "idade": 28,
+        "cidade": "Curitiba"
+    },
+    {
+        "nome": "Lucas Henrique Costa",
+        "sexo": "masculino",
+        "dataDeNascimento": "2000-09-30",
+        "idade": 23,
+        "cidade": "Porto Alegre"
+    },
+    {
+        "nome": "Mariana Souza",
+        "sexo": "feminino",
+        "dataDeNascimento": "1988-05-18",
+        "idade": 36,
+        "cidade": "Florianópolis"
+    },
+    {
+        "nome": "Gabriel Ferreira",
+        "sexo": "masculino",
+        "dataDeNascimento": "1993-11-05",
+        "idade": 30,
+        "cidade": "Brasília"
+    },
+    {
+        "nome": "Juliana Almeida",
+        "sexo": "feminino",
+        "dataDeNascimento": "1979-06-25",
+        "idade": 44,
+        "cidade": "Salvador"
+    },
+    {
+        "nome": "Fernando Rocha",
+        "sexo": "masculino",
+        "dataDeNascimento": "1984-04-12",
+        "idade": 40,
+        "cidade": "Recife"
+    },
+    {
+        "nome": "Patrícia Gomes",
+        "sexo": "feminino",
+        "dataDeNascimento": "1997-08-20",
+        "idade": 26,
+        "cidade": "Fortaleza"
+    },
+    {
+        "nome": "Renato Fernandes",
+        "sexo": "masculino",
+        "dataDeNascimento": "1992-10-03",
+        "idade": 31,
+        "cidade": "Manaus"
+    },
+    {
+        "nome": "Beatriz Santos",
+        "sexo": "feminino",
+        "dataDeNascimento": "1986-02-14",
+        "idade": 38,
+        "cidade": "Belém"
+    },
+    {
+        "nome": "Rodrigo Araujo",
+        "sexo": "masculino",
+        "dataDeNascimento": "1998-07-07",
+        "idade": 25,
+        "cidade": "Goiânia"
+    },
+    {
+        "nome": "Larissa Mendes",
+        "sexo": "feminino",
+        "dataDeNascimento": "1981-11-22",
+        "idade": 42,
+        "cidade": "Vitória"
+    },
+    {
+        "nome": "Felipe Pereira",
+        "sexo": "masculino",
+        "dataDeNascimento": "1989-01-09",
+        "idade": 35,
+        "cidade": "São Luís"
+    },
+    {
+        "nome": "Camila Martins",
+        "sexo": "feminino",
+        "dataDeNascimento": "1994-06-19",
+        "idade": 30,
+        "cidade": "Natal"
+    },
+    {
+        "nome": "Bruno Ribeiro",
+        "sexo": "masculino",
+        "dataDeNascimento": "1987-08-25",
+        "idade": 36,
+        "cidade": "Maceió"
+    },
+    {
+        "nome": "Isabela Carvalho",
+        "sexo": "feminino",
+        "dataDeNascimento": "1991-09-15",
+        "idade": 32,
+        "cidade": "Campo Grande"
+    },
+    {
+        "nome": "André Silva",
+        "sexo": "masculino",
+        "dataDeNascimento": "1999-03-28",
+        "idade": 25,
+        "cidade": "João Pessoa"
+    },
+    {
+        "nome": "Fernanda Rodrigues",
+        "sexo": "feminino",
+        "dataDeNascimento": "1983-05-07",
+        "idade": 41,
+        "cidade": "Aracaju"
+    },
+    {
+        "nome": "Thiago Almeida",
+        "sexo": "masculino",
+        "dataDeNascimento": "2002-12-15",
+        "idade": 21,
+        "cidade": "Palmas"
+    },
+    {
+        "nome": "Vanessa Silva",
+        "sexo": "feminino",
+        "dataDeNascimento": "1980-11-30",
+        "idade": 43,
+        "cidade": "Teresina"
+    },
+    {
+        "nome": "Marcelo Costa",
+        "sexo": "masculino",
+        "dataDeNascimento": "1985-02-11",
+        "idade": 39,
+        "cidade": "Macapá"
+    },
+    {
+        "nome": "Alice Souza",
+        "sexo": "feminino",
+        "dataDeNascimento": "1996-04-21",
+        "idade": 28,
+        "cidade": "Boa Vista"
+    },
+    {
+        "nome": "Paulo Henrique Santos",
+        "sexo": "masculino",
+        "dataDeNascimento": "1990-08-29",
+        "idade": 33,
+        "cidade": "Porto Velho"
+    }
+]
