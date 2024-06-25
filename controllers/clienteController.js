@@ -21,16 +21,17 @@ exports.getAllClientes = catchAsync(async (req, res, next) => {
 });
 
 exports.getClienteByName = catchAsync(async (req, res, next) => {
-    const cliente = await Cliente.findOne({ slug: req.params.nome });
+    const clientes = await Cliente.find({ slug: req.params.nome });
 
-    if (!cliente) {
+    if (!clientes) {
         return next(new AppError('Nenhum cliente encontrado com esse nome', 404));
     }
 
     res.status(200).json({
         status: 'sucess',
+        results: clientes.length,
         data: {
-            cliente,
+            clientes,
         },
     });
 });
