@@ -15,7 +15,7 @@
         <li><a href="#rodando-o-projeto">Rodando o projeto</a></li>
       </ul>
     </li>
-    <li><a href="#explicação-do-projeto">Explicação do projeto</a></li>
+    <li><a href="#explicação-do-projeto-e-sua-estrutura">Explicação do projeto e sua Estrutura</a></li>
   </ol>
 </details>
 
@@ -132,7 +132,7 @@ Execute o seguinte comando para subir a aplicação:
 
     $ npm start
 
-## Explicação do projeto
+## Explicação do projeto e sua Estrutura
 
 O projeto consiste em uma API básica que realiza operações CRUD.
 
@@ -146,3 +146,23 @@ Além dos requisitos pedidos, adicionei ao projeto mais algumas verificações e
 -   Códigos de retorno das operações.
 
 Para testar o projeto, basta subir a aplicação e utilizar o Postman.
+
+### Models
+
+Nesta pasta, temos os modelos dos nossos objetos (Cliente e Cidade) onde está definido o esquema, sendo nele informado os atributos, as peculiaridades de cada atributo (único, require, maxLenght, enum, etc), e também Middlewares, funções que são realizadas conforme solicitadas.
+
+### Controllers
+
+Aqui temos os controllers dos clientes, das cidades e dos erros. Basicamente a ideia é que nesta pasta tenhamos as funções que serão realidas ao receber um Get, um Post, dentre outras operações CRUD.
+
+### Routes
+
+Aqui temos as possíveis rotas do nosso serviço e qual a função que cada uma deve realizar, função essa que é tratada pelos Controllers citados acima.
+
+### Utils
+
+Essa pasta é destinada a guardar as outras funcões que vão ser utilizadas mas não se encaixam nas demais pastas da arquitetura, por exemplo temos aqui a função catchAsync que realiza o tratamento de erros relacionados a async functions.
+
+### Dev-data
+
+Onde está localizado o script e os arquivos JSON para realizar a alimentação opcional do Banco de Bados.
