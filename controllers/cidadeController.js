@@ -55,6 +55,7 @@ exports.getCidadeByEstado = catchAsync(async (req, res, next) => {
 
     res.status(200).json({
         status: 'sucess',
+        results: cidades.length,
         data: {
             cidades,
         },

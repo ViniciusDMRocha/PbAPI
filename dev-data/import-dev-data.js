@@ -1,10 +1,10 @@
 const fs = require('fs');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
-const Cliente = require('../../models/clienteModel');
-const Cidade = require('../../models/cidadeModel');
+const Cliente = require('../models/clienteModel');
+const Cidade = require('../models/cidadeModel');
 
-dotenv.config({ path: '../../config.env' });
+dotenv.config({ path: '../config.env' });
 
 const DB = process.env.DATABASE.replace('<PASSWORD>', process.env.DATABASE_PASSWORD);
 
@@ -27,5 +27,3 @@ const importData = async () => {
 };
 
 importData();
-
-console.log(process.argv);
