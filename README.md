@@ -89,7 +89,7 @@ Primeiro, deve-se instalar todas as ferramentas necessárias para rodar o projet
 
         $ npm install npm -g
 
-Além do Node devemos ter uma instância de MongoDB ativa, podendo ser uma instância local ou não. Recomendo usar qual você estiver mais familiarizado
+Além do Node devemos ter uma instância de MongoDB ativa, podendo ser uma instância local ou não. Recomendo usar qual você estiver mais familiarizado.
 
 _(Obs: Na minha máquina utilizei um Cluster no MongoDB Atlas)._
 
@@ -122,7 +122,7 @@ Antes de rodarmos o nosso projeto, é necessário que você acesse o arquivo `co
 
 Ao alterar as informações acima, salve o arquivo e o renomeie para `config.env`.
 
-**_Essa próxima instrução é sobre a alimentação do Banco de Dados, caso não queira realizá-lo basta pular para o próximo passo._**
+**_Essa próxima instrução é sobre a alimentação do Banco de Dados, caso não queira realizá-la basta pular para o próximo passo._**
 
 Para alimentar o Banco de Dados criei um script que cadastra 25 Clientes e 25 Cidades. Para executa-lo, vá para a pasta `dev-data` e rode o arquivo `import-dev-data.js`:
 
